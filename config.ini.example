@@ -1,0 +1,29 @@
+# Example Configuration File for MX-BOT
+# Copy this to config.ini and fill in your values
+
+[Telegram]
+# Get your bot token from @BotFather on Telegram
+# Format: 123456789:ABCdefGHIjklMNOpqrsTUVwxyz
+bot_token = YOUR_BOT_TOKEN_HERE
+
+# Your Telegram user ID (numeric)
+# Get it from @userinfobot or similar bots
+admin_id = YOUR_TELEGRAM_ID_HERE
+
+[Instagram]
+# Instagram account for checking verification DMs
+# This should be a dedicated bot account
+username = YOUR_INSTAGRAM_USERNAME
+
+# Instagram password
+password = YOUR_INSTAGRAM_PASSWORD
+
+[Paths]
+# Database file path
+database = bot.db
+
+# Directory for Instagram session files
+sessions = sessions
+
+# Directory for temporary downloads
+downloads = downloads
